@@ -1,0 +1,15 @@
+[alias]
+        last = log -1 HEAD --stat
+        s = status
+        ll = log --oneline
+        cm = commit -m
+        a = add .
+        rv = remote -v
+        d = diff
+        gl = config --global -l
+        co = checkout
+        cob = checkout -b
+        b = branch
+        ba = branch -a
+        br = branch -r
+        bD = branch -D
